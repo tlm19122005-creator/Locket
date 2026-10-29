@@ -17,7 +17,7 @@ var MC = {
           "amount": 399000.0,
           "currency": "VND"
       },
-      expires_date: "2025-12-19T10:10:14Z",
+      expires_date: "2030-11-25T10:10:14Z",
       grace_period_expires_date: null,
       refunded_at: null,
       unsubscribe_detected_at: null,
