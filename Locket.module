@@ -13,6 +13,3 @@ user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
 [MITM]
 hostname = %APPEND%, firebaseremoteconfig.googleapis.com
 
-header7.js: https://raw.githubusercontent.com/tlm19122005-creator/Locket/main/header7.js
-locketfix8.js: https://raw.githubusercontent.com/tlm19122005-creator/Locket/main/locketfix8.js
-forceGold4.3.js: https://raw.githubusercontent.com/tlm19122005-creator/Locket/main/forceGold4.3.js
