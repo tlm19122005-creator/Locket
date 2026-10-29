@@ -1,1 +1,15 @@
 
+#!name=Locket - minhco05
+#!desc=Module cấu hình Locket cá nhân
+# Maintainer: minhco05
+
+[General]
+user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
+
+[Script]
+# Locket - minhco05
+# Chưa khai báo script xử lý phản hồi.
+
+[MITM]
+hostname = %APPEND%, firebaseremoteconfig.googleapis.com
+
