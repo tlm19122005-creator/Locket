@@ -1,6 +1,4 @@
-// ============================================================
-// Locket Remote Config Rewrite
-// Endpoint: firebaseremoteconfig.googleapis.com
+
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
 var obj = JSON.parse($response.body);
