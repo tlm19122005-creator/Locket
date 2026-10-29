@@ -18,6 +18,3 @@ locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googlea
 [MITM]
 hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
 
-[MITM]
-hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
-
