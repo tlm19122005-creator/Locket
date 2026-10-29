@@ -5,7 +5,7 @@ const mapping = {
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"],
   obj = JSON.parse($response.body);
 obj.Attention = "Chúc mừng bạn!";
-var NMS = {
+var MC = {
       auto_resume_date: null,
       display_name: "locket",
       is_sandbox: true,
