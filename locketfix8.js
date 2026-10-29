@@ -28,7 +28,7 @@ var MC = {
   },
   locketGold = {
       grace_period_expires_date: null,
-      purchase_date: "2030-11-25T10:10:14Z",
+      purchase_date: "2025-12-19T10:10:14Z",
       product_identifier: "locket",
       expires_date: "2030-01-09T10:10:14Z"
   };
