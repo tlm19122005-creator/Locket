@@ -7,8 +7,9 @@
 user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
 
 [Script]
-# Locket - minhco05
-# Chưa khai báo script xử lý phản hồi.
+# ~ Locket Gold - Shadowrocket / Surge / LanceX
+# RevenueCat Response
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=
 
 [MITM]
 hostname = %APPEND%, firebaseremoteconfig.googleapis.com
