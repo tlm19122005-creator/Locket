@@ -51,7 +51,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Tiktok @minhco05 ✨",
                     body: "Cảm ơn đã ủng hộ mình ạ 💛",
-                    imageURL: "https://i.postimg.cc/x1n5fN8w/Goc-ban-vang-am-cung-Locket.png"
+                    imageURL: "https://i.postimg.cc/hvYtW4FT/Anh-dai-dien-Locket-phat-sang-cua-Minh-Co05.png"
                 }
             ],
             primary_button_title: "Xong",
