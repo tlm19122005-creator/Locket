@@ -282,7 +282,7 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",            
-            url: "https://i.postimg.cc/2SjFkmt6/B3BEA219-FF58-49D4-86A1-C3E5F2FF1352.png",
+            url: "https://i.postimg.cc/HsLkTkmm/locket-halloween-frame-transparent.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2005-12-19T00:00:00",
