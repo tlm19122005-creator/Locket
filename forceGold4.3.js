@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
             ],
             primary_button_title: "Xong",
             campaign: "locket_gold_welcome",
-            start_at: "2020-01-01T00:00:00",
+            start_at: "2005-12-19T00:00:00",
             end_at: "2099-12-31T23:59:59",
             use_local_time_zone: true
         }),
@@ -181,12 +181,12 @@ if (ua.includes("Locket")) {
     // 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
     // ============================================================
     Object.assign(obj.entries, {
-        max_friends_count: "999999",
+        max_friends_count: "9999",
         friend_limit_mode: "0",
-        soft_friend_limit_threshold_count: "999999",
+        soft_friend_limit_threshold_count: "9999",
         show_friend_limit_on_cam: "false",
-        signup_max_friends_count: "999999",
-        celebrity_inbox_limit: "999999",
+        signup_max_friends_count: "9999",
+        celebrity_inbox_limit: "9999",
         friend_limit_geo_override: JSON.stringify({ experiments: {}, area_code_overrides: {} }),
         friends_sheet_locket_count_config: JSON.stringify({
             items: [
@@ -282,10 +282,10 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",            
-            url: "https://i.postimg.cc/fbY7MGdR/hlw.png",
+            url: "https://i.postimg.cc/bdXdSY6v/Khung-Halloween-sticker-khuon-mat-dang-yeu.png",
             use_local_time_zone: true,
             placement: "below",
-            start_at: "2020-01-01T00:00:00",
+            start_at: "2005-12-19T00:00:00",
             end_at: "2099-12-31T23:59:59"
         }),
         live_activity_onboarding: "true",
