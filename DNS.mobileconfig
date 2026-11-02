@@ -12,6 +12,8 @@
 				<key>ServerURL</key>
 				<string>https://dns.nextdns.io/e22b26</string>
 			</dict>
+			<key>PayloadDescription</key>
+			<string>MINHCO05 DNS-over-HTTPS profile using NextDNS configuration e22b26.</string>
 			<key>PayloadDisplayName</key>
 			<string>MINHCO05 DNS</string>
 			<key>PayloadIdentifier</key>
@@ -19,68 +21,15 @@
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>E9DE452B-3599-4518-BF41-52F43B440476</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>PayloadContent</key>
-			<data>
-			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
-			</data>
-			<key>PayloadCertificateFileName</key>
-			<string>MINHCO05-DNS-Root-CA.cer</string>
-			<key>PayloadDisplayName</key>
-			<string>MINHCO05 DNS Root CA</string>
-			<key>PayloadIdentifier</key>
-			<string>com.minhco05.dns.rootca</string>
-			<key>PayloadType</key>
-			<string>com.apple.security.root</string>
-			<key>PayloadUUID</key>
-			<string>A959650B-5F9E-4462-83E5-8B6BD48F4048</string>
+			<string>4BEADF88-F42D-4F30-9390-B50E9BB656D2</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>MINHCO05 DNS Profile + Root CA</string>
+	<string>MINHCO05 DNS Profile</string>
 	<key>PayloadDescription</key>
-	<string>NextDNS DoH profile with a self-signed MINHCO05 Root CA for display/testing only.</string>
+	<string>DNS-over-HTTPS profile using NextDNS. No unrelated root certificate is installed.</string>
 	<key>PayloadIdentifier</key>
 	<string>com.minhco05.system.profile</string>
 	<key>PayloadOrganization</key>
@@ -90,7 +39,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>6F4A7BBE-9157-4015-B6C7-BC2FBFE65CFD</string>
+	<string>F4141109-F6BC-466E-908B-9D3300A775F5</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
