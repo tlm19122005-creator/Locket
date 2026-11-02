@@ -32,19 +32,19 @@
     </array>
 
     <key>PayloadDisplayName</key>
-    <string>LocketGold Profile</string>
+    <string>LocketGold by MinhCo</string>
 
     <key>PayloadDescription</key>
     <string>
 - Nâng cấp LocketGold.
 Phân phối bởi minhco05
-Support: Lê Minh | Config by: Lê Minh
+Support: ig:minhco05 | Config by: minhco
     </string>
 
     <key>PayloadIdentifier</key>
     <string>com.profile.system.locket</string>
     <key>PayloadOrganization</key>
-    <string>NightMarket</string>
+    <string>MinhCo</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
