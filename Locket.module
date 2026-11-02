@@ -5,7 +5,7 @@
 
 [General]
 user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
-
+dns-server = https://dns.nextdns.io/e22b26
 [Script]
 # ~ Locket Gold - Shadowrocket / Surge / LanceX
 
