@@ -21,3 +21,8 @@ locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googlea
 [MITM]
 hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
 
+[Rule]
+# Add your own ordinary domain-routing rules here.
+
+[MITM]
+# No MITM hostnames are required for DNS-over-HTTPS itself.
