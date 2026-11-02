@@ -375,7 +375,7 @@ if (ua.includes("Locket")) {
         ]),
         overlay_items: JSON.stringify([
             {
-                section: "🎨 General",
+                section: "🎨 General by Minh Co",
                 items: [
                     { overlay_id: "caption:standard", source: "local", caption: { type: "standard" } },
                     { overlay_id: "caption:review", source: "local", caption: { type: "review" } },
@@ -391,7 +391,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Holiday Caption",
+                section: "🎨 Holiday Caption by Minh Co",
                 items: [
                     { overlay_id: "caption:halloween_2026", source: "remote", caption: { background: { colors: ["#150804", "#C8540D"] }, icon: { data: "🎃", type: "emoji" }, max_lines: 1, text: "Halloween", localized_text: { en: "Halloween", vn: "Halloween" }, text_color: "#FFB182", type: "static_content" } },
                     { overlay_id: "caption:autumn_2026", source: "remote", caption: { background: { colors: ["#FFE0A0", "#F6A53A"] }, icon: { data: "🍂", type: "emoji" }, max_lines: 1, text: "Xin chào Mùa Thu", localized_text: { en: "Xin chào Mùa Thu", vn: "Xin chào Mùa Thu" }, text_color: "#FFFFFF", type: "static_content" } },
@@ -403,7 +403,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Decorative by Duy Vinh",
+                section: "🎨 Decorative by Minh Co",
                 items: [
                     { overlay_id: "caption:NMS", source: "remote", caption: { background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"] }, max_lines: 1, text: "💻 minhco05", text_color: "#183153", type: "static_content" } },
                     { overlay_id: "caption:cu", source: "remote", caption: { background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"] }, max_lines: 1, text: "Cu 🐎", text_color: "#633B24", type: "static_content" } },
@@ -443,7 +443,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Gen Z & Xéo xắt 💅",
+                section: "🎨 Gen Z & Xéo xắt 💅 by Minh Co",
                 items: [
                     { overlay_id: "caption:feeling_cute", source: "remote", caption: { background: { colors: ["#F8BBD0", "#E91E63"] }, icon: { data: "🌷", type: "emoji" }, max_lines: 1, text: "Feeling Cute", localized_text: { en: "Feeling Cute", vn: "Cảm thấy dthw" }, text_color: "#FFFFFFE5", type: "static_content" } },
                     { overlay_id: "caption:cutie_pie", source: "remote", caption: { background: { colors: ["#FFDEE9", "#FFB6C1", "#FF9AA2"] }, icon: { data: "🎀", type: "emoji" }, max_lines: 1, text: "Cutie Pie 🌸", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -482,7 +482,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Meme & Hài hước 🤡",
+                section: "🎨 Meme & Hài hước 🤡 by Minh Co",
                 items: [
                     { overlay_id: "caption:cuoi_vcl_m_oi", source: "remote", caption: { background: { colors: ["#F7971E", "#FFD200", "#FFEE58"] }, icon: { data: "😂", type: "emoji" }, max_lines: 1, text: "Cười vcl m oi", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "caption:cuoi_xiu", source: "remote", caption: { background: { colors: ["#FFEB3B", "#FF9800"] }, icon: { data: "😎", type: "emoji" }, max_lines: 1, text: "Cười xỉu", text_color: "#000000E6", type: "static_content" } },
@@ -523,7 +523,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Bất ổn & Hết cứu 🫠",
+                section: "🎨 Bất ổn & Hết cứu 🫠 by Minh Co",
                 items: [
                     { overlay_id: "caption:bat_on_that_su", source: "remote", caption: { background: { colors: ["#636363", "#A2AB58"] }, icon: { data: "🫠", type: "emoji" }, max_lines: 1, text: "Bất ổn thật sự", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:nay_la_het_cuu", source: "remote", caption: { background: { colors: ["#607D8B", "#455A64"] }, icon: { data: "❌", type: "emoji" }, max_lines: 1, text: "Này là hết cứu", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -585,7 +585,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Deadline & Tiền bạc 💸",
+                section: "🎨 Deadline & Tiền bạc 💸 by Minh Co",
                 items: [
                     { overlay_id: "caption:deadline_ruot", source: "remote", caption: { background: { colors: ["#ED213A", "#93291E"] }, icon: { data: "🔥", type: "emoji" }, max_lines: 1, text: "Deadline dí tụt quần", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:doi_tru_deadline", source: "remote", caption: { background: { colors: ["#F0D1A4", "#F5E2BD", "#D5D9EF"] }, icon: { data: "📚", type: "emoji" }, max_lines: 1, text: "đời cho gì nhận nấy, trừ deadline", text_color: "#5B4A35", type: "static_content" } },
@@ -603,7 +603,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "🎨 Daily & Đời sống ☕",
+                section: "🎨 Daily & Đời sống ☕ by Minh Co",
                 items: [
                     { overlay_id: "caption:good_morning", source: "remote", daily_start_hour: 5, daily_end_hour: 10, caption: { background: { colors: ["#EF7402", "#EABF0F"] }, icon: { data: "☀️", type: "emoji" }, max_lines: 1, text: "Good morning", text_color: "#FFFFFFE5", type: "static_content" } },
                     { overlay_id: "caption:ngay_moi_vui_ve", source: "remote", caption: { background: { colors: ["#4CAF50", "#2E7D32"] }, icon: { data: "☀️", type: "emoji" }, max_lines: 1, text: "Ngày mới vui vẻ", text_color: "#FFFFFFE6", type: "static_content" } },
