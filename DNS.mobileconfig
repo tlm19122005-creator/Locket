@@ -2,50 +2,65 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>TLS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>45.90.28.145</string>
-					<string>45.90.30.145</string>
-				</array>
-				<key>ServerName</key>
-				<string>e22b26.dns.nextdns.io</string>
-			</dict>
-			<key>PayloadDisplayName</key>
-			<string>LocketGold DNS</string>
-			<key>PayloadIdentifier</key>
-			<string>com.minhco05.dns.profile</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>88630FDA-8AC8-4FAD-A2C4-465B62031B05</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-	</array>
-	<key>PayloadDisplayName</key>
-	<string>LocketGold by MinhCo</string>
-	<key>PayloadDescription</key>
-	<string>Cau hinh DNS ma hoa NextDNS.
-Phan phoi boi minhco05
-Support: ig:minhco05 | Config by: minhco</string>
-	<key>PayloadIdentifier</key>
-	<string>com.minhco05.system.profile</string>
-	<key>PayloadOrganization</key>
-	<string>MinhCo</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>63D116FC-D165-4B67-849D-48C8A42AD866</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+
+                <key>ServerAddresses</key>
+                <array>
+                    <string>45.90.28.145</string>
+                    <string>45.90.30.145</string>
+                </array>
+
+                <key>ServerName</key>
+                <string>e22b26.dns.nextdns.io</string>
+            </dict>
+
+            <key>PayloadDisplayName</key>
+            <string>MINHCO05 DNS</string>
+
+            <key>PayloadIdentifier</key>
+            <string>com.minhco05.dns.profile</string>
+
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+
+            <key>PayloadUUID</key>
+            <string>88630FDA-8AC8-4FAD-A2C4-465B62031B05</string>
+
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <key>PayloadDisplayName</key>
+    <string>MINHCO05 DNS Profile</string>
+
+    <key>PayloadDescription</key>
+    <string>MINHCO05 Encrypted DNS Configuration.
+Powered by NextDNS.
+Maintainer: minhco05</string>
+
+    <key>PayloadIdentifier</key>
+    <string>com.minhco05.system.profile</string>
+
+    <key>PayloadOrganization</key>
+    <string>MINHCO05</string>
+
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+
+    <key>PayloadUUID</key>
+    <string>63D116FC-D165-4B67-849D-48C8A42AD866</string>
+
+    <key>PayloadVersion</key>
+    <integer>1</integer>
 </dict>
 </plist>
