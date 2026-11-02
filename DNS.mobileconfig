@@ -13,25 +13,80 @@
 				<string>https://dns.nextdns.io/e22b26</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>MINHCO05 DNS-over-HTTPS profile using NextDNS configuration e22b26.</string>
+			<string>MINHCO05 DNS over HTTPS using NextDNS e22b26.</string>
 			<key>PayloadDisplayName</key>
 			<string>MINHCO05 DNS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.minhco05.dns.profile</string>
+			<string>com.minhco05.dns.settings</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>4BEADF88-F42D-4F30-9390-B50E9BB656D2</string>
+			<string>1CDD23AD-450A-4515-A45A-B5B1A17FC2C6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<data>
+			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
+			</data>
+			<key>PayloadCertificateFileName</key>
+			<string>MINHCO05-RootCA.cer</string>
+			<key>PayloadDescription</key>
+			<string>Self-signed MINHCO05 root CA. Not required for NextDNS DoH.</string>
+			<key>PayloadDisplayName</key>
+			<string>MINHCO05 DNS Root CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.minhco05.dns.rootca</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>6442C60B-23A0-4120-B996-34F60DD1A41E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>MINHCO05 DNS Profile</string>
+	<string>MINHCO05 DNS + Root CA</string>
 	<key>PayloadDescription</key>
-	<string>DNS-over-HTTPS profile using NextDNS. No unrelated root certificate is installed.</string>
+	<string>NextDNS DoH profile and a separate MINHCO05 self-signed root CA certificate.</string>
 	<key>PayloadIdentifier</key>
-	<string>com.minhco05.system.profile</string>
+	<string>com.minhco05.profile.dnsrootca</string>
 	<key>PayloadOrganization</key>
 	<string>MINHCO05</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -39,7 +94,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F4141109-F6BC-466E-908B-9D3300A775F5</string>
+	<string>51A3D30C-FB31-4591-95F3-BB58D1D0772F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
