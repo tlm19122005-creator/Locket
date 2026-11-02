@@ -15,7 +15,7 @@
                     <string>45.90.30.145</string>
                 </array>
                 <key>ServerName</key>
-                <string>e22b26.dns.nextdns.io</string>
+                <string>https://dns.nextdns.io/e22b26</string>
             </dict>
 
             <key>PayloadDisplayName</key>
