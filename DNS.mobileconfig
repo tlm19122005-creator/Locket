@@ -21,7 +21,7 @@
             <key>PayloadDisplayName</key>
             <string>LocketGold DNS</string>
             <key>PayloadIdentifier</key>
-            <string>com.profile.dns.locket</string>
+            <string>com.minhco05.dns.profile</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
@@ -42,7 +42,7 @@ Support: ig:minhco05 | Config by: minhco
     </string>
 
     <key>PayloadIdentifier</key>
-    <string>com.profile.system.locket</string>
+    <string>com.minhco05.system.profile</string>
     <key>PayloadOrganization</key>
     <string>MinhCo</string>
     <key>PayloadRemovalDisallowed</key>
