@@ -375,7 +375,7 @@ if (ua.includes("Locket")) {
         ]),
         overlay_items: JSON.stringify([
             {
-                section: "🎨 General by Minh Co",
+                section: "🎨 Cảm ơn bạn đã sử dụng sản phẩm của Minh Co",
                 items: [
                     { overlay_id: "caption:standard", source: "local", caption: { type: "standard" } },
                     { overlay_id: "caption:review", source: "local", caption: { type: "review" } },
