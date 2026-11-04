@@ -90,12 +90,22 @@ if (ua.includes("Locket")) {
     // ============================================================
     // 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
     // ============================================================
+    
+// ============================================================
+// 3. CAMERA, VIDEO, FILTERS & UPLOAD QUALITY
+// MINHCO05 - Configuration block
+// ============================================================
+
+if (obj && obj.entries && typeof obj.entries === "object") {
+
     Object.assign(obj.entries, {
+
+        // CAMERA
         camera: JSON.stringify({
-            gold_max_duration: 30.0,
-            goldMaxDuration: 30.0,
-            max_duration: 30.0,
-            maxDuration: 30.0,
+            gold_max_duration: 30,
+            goldMaxDuration: 30,
+            max_duration: 30,
+            maxDuration: 30,
             ultra_wide: true,
             ultraWide: true,
             volume_button: true,
@@ -107,75 +117,141 @@ if (ua.includes("Locket")) {
             quality_mbps: 0.9,
             qualityMbps: 0.9
         }),
+
+        // CAMERA ROLL
         camera_roll: JSON.stringify({
-            gold_max_duration: 30.0,
-            goldMaxDuration: 30.0,
-            video_max_duration: 30.0,
-            videoMaxDuration: 30.0,
-            max_duration: 30.0,
-            maxDuration: 30.0,
-            trim_max_duration: 30.0,
-            trimMaxDuration: 30.0,
-            camera_roll_max_duration: 30.0,
+            gold_max_duration: 30,
+            goldMaxDuration: 30,
+            video_max_duration: 30,
+            videoMaxDuration: 30,
+            max_duration: 30,
+            maxDuration: 30,
+            trim_max_duration: 30,
+            trimMaxDuration: 30,
+            camera_roll_max_duration: 30,
             quality_mbps: 0.9,
             qualityMbps: 0.9,
             flash_button: true
         }),
+
+        // LIVE PHOTOS
         live_photos: JSON.stringify({
             capture: true,
             viewing: true,
             catch_up: true,
             widget_looping_mode: "never"
         }),
+
+        // CAMERA FILTER CONFIG
         camera_filter_config: JSON.stringify({
             allows_custom_filters: true,
             show_filter_button: true,
             sheet_enabled: true,
             open_sheet_immediately: true,
+
             sheet_filters: [
-                { title: { en: "Goofy" }, filter_ids: ["okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows"] },
-                { title: { en: "Looks" }, filter_ids: ["bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns", "tatted", "mohawk", "braces", "bye_brows"] },
-                { title: { en: "Celebrate" }, filter_ids: ["slimed", "princess", "disco_lights", "cash_money", "happy_birthday"] },
-                { title: { en: "Cute" }, filter_ids: ["cutesy", "sticker_face", "flower_crown", "love_bug"] },
-                { title: { en: "Costumes" }, filter_ids: ["wedding", "cowboy_cowgirl", "giraffe", "clown"] },
-                { title: { en: "Holidays" }, filter_ids: ["easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun", "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"] }
+                {
+                    title: { en: "Goofy" },
+                    filter_ids: [
+                        "okay_wig", "influencer",
+                        "looks_maxxing", "toothless", "bye_brows"
+                    ]
+                },
+                {
+                    title: { en: "Looks" },
+                    filter_ids: [
+                        "bowling_ball", "blonde_bleached",
+                        "beard", "bob_cut", "buns",
+                        "tatted", "mohawk", "braces", "bye_brows"
+                    ]
+                },
+                {
+                    title: { en: "Celebrate" },
+                    filter_ids: [
+                        "slimed", "princess", "disco_lights",
+                        "cash_money", "happy_birthday"
+                    ]
+                },
+                {
+                    title: { en: "Cute" },
+                    filter_ids: [
+                        "cutesy", "sticker_face",
+                        "flower_crown", "love_bug"
+                    ]
+                },
+                {
+                    title: { en: "Costumes" },
+                    filter_ids: [
+                        "wedding", "cowboy_cowgirl",
+                        "giraffe", "clown"
+                    ]
+                },
+                {
+                    title: { en: "Holidays" },
+                    filter_ids: [
+                        "easter_bunney_cutout",
+                        "easter_chick_cutout",
+                        "bearded", "leprechaun",
+                        "lucky_face", "sweet_hearts",
+                        "elf_cutout", "santa_cutout", "frosty"
+                    ]
+                }
             ],
+
             picker_filters: [
-                "okay_wig", "influencer", "looks_maxxing", "toothless", "bye_brows",
-                "bowling_ball", "blonde_bleached", "beard", "bob_cut", "buns",
-                "tatted", "mohawk", "braces", "slimed", "princess",
-                "disco_lights", "cash_money", "happy_birthday", "cutesy", "sticker_face",
-                "flower_crown", "love_bug", "wedding", "cowboy_cowgirl", "giraffe",
-                "clown", "easter_bunney_cutout", "easter_chick_cutout", "bearded", "leprechaun",
-                "lucky_face", "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"
+                "okay_wig", "influencer", "looks_maxxing",
+                "toothless", "bye_brows", "bowling_ball",
+                "blonde_bleached", "beard", "bob_cut", "buns",
+                "tatted", "mohawk", "braces", "slimed",
+                "princess", "disco_lights", "cash_money",
+                "happy_birthday", "cutesy", "sticker_face",
+                "flower_crown", "love_bug", "wedding",
+                "cowboy_cowgirl", "giraffe", "clown",
+                "easter_bunney_cutout", "easter_chick_cutout",
+                "bearded", "leprechaun", "lucky_face",
+                "sweet_hearts", "elf_cutout", "santa_cutout", "frosty"
             ]
         }),
+
+        // CAMERA ROLL FLAGS
         camera_roll_preview_enabled: "true",
         camera_roll_video_enabled: "true",
         camera_roll_video_upload_enabled: "true",
         internal_camera_roll_video_upload_enabled: "true",
         longer_camera_roll_videos_enabled: "true",
-        camera_roll_video_max_duration: "30.0",
-        camera_roll_max_duration: "30.0",
-        camera_roll_duration: "30.0",
-        max_video_duration: "30.0",
-        video_max_duration: "30.0",
-        video_trim_max_duration: "30.0",
-        trim_max_duration: "30.0",
-        gold_max_duration: "30.0",
-        goldMaxDuration: "30.0",
+
+        camera_roll_video_max_duration: "30",
+        camera_roll_max_duration: "30",
+        camera_roll_duration: "30",
+        max_video_duration: "30",
+        video_max_duration: "30",
+        video_trim_max_duration: "30",
+        trim_max_duration: "30",
+
+        gold_max_duration: "30",
+        goldMaxDuration: "30",
+
+        // QUALITY
         video_quality_mbps: "0.9",
         video_sound_enabled: "true",
         microphone_enabled: "true",
         camera_microphone_enabled: "true",
         audio_session_deactivation_enabled: "true",
         zoom_enabled: "true",
-        upload_main: "false",
+
+        // UPLOAD
         upload_main_image_quality: "1.0",
         upload_main_image_size: "1440",
         upload_thumbnail_image_quality: "1.0",
         upload_thumbnail_image_size: "1020"
     });
+
+    console.log("[MINHCO05] Camera configuration processed");
+
+} else {
+    console.log("[MINHCO05] Remote Config entries unavailable");
+}
+
 
     // ============================================================
     // 4. BẠN BÈ, GIỚI HẠN & ĐỀ XUẤT KẾT BẠN
